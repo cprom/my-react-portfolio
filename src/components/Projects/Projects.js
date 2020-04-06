@@ -16,6 +16,8 @@ const Projects = () => {
               <a href="https://cprom.github.io/running-wild/" target="#" />
               <a href="https://cprom.github.io/running-wild/"><p className="card-text-a">UCI Eats</p>
                 <p>Web app that helps you search for restaurants and events around your area.</p></a>
+              <a href="https://github.com/cprom/running-wild" target="#"><i class="fab fa-github-square fa-2x"></i></a>
+
             </div>
           </div>
           <div className="card">
@@ -25,6 +27,8 @@ const Projects = () => {
                 <p className="card-text">Outbreak Status</p>
                 <p>Web app that helps you track COVID-19.</p>
               </a>
+              <a href="https://github.com/EvanErickson/outbreakStatus" target="#"><i class="fab fa-github-square fa-2x"></i></a>
+
             </div>
           </div>
           <div className="card">
@@ -33,12 +37,13 @@ const Projects = () => {
               <a href="https://enigmatic-wildwood-51842.herokuapp.com/" target="#">
                 <p className="card-text">Coder Book</p>
                 <p>Social Media Web Aplication for Developers.</p>
+                <a href="https://github.com/guidoasbun/project3" target="#"><i class="fab fa-github-square fa-2x"></i></a>
               </a>
             </div>
           </div>
         </div>
 
-      </div>
+      </div >
 
 
     </>
