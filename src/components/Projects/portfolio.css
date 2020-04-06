@@ -50,6 +50,14 @@ p {
   text-decoration: none;
   
 }
+p.card-text-a {
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #333940;
+  text-decoration: none;
+}
 
  a:link {
    color: #333940;
@@ -73,9 +81,17 @@ footer {
  }
 
 img.card-img-top-a {
-  width: 200px;
+  max-width: 90%;
   
 }
+
+img.card-img-top-b {
+  max-height: 200px;
+  max-width: 90%;
+  margin-top: 40px;
+
+}
+
 a {
   text-align: center;
 }

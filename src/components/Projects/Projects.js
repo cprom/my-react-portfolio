@@ -7,38 +7,39 @@ const Projects = () => {
     <>
       <h1>Projects</h1>
 
-      <div class="container">
-        <div class="card-deck">
-          <div class="card">
-            <a href="https://cprom.github.io/running-wild/" target="#"><img src="./assets/images/UCIeats_logo.png" class="card-img-top"
+      <div className="container">
+        <div className="card-deck">
+          <div className="card">
+            <a href="https://cprom.github.io/running-wild/" target="#"><img src="./assets/images/UCIeats_logo.png" className="card-img-top-b"
               alt="UCI Eats logo" /></a>
-            <div class="card-body">
+            <div className="card-body">
               <a href="https://cprom.github.io/running-wild/" target="#" />
-              <a href="https://cprom.github.io/running-wild/"><p class="card-text">UCI Eats</p></a>
-              <p>Web app that helps you search for restaurants and events around your area.</p>
-
-            </div>
-            <div class="card">
-              <a href="https://outbreakstatus.herokuapp.com/" target="#"><img src="./assets/images/OSbiohazzard.png" class="card-img-top-a" alt="Bio Hazzard symbol" /></a>
-              <div class="card-body">
-                <a href="#">
-                  <p class="card-text">Outbreak Status</p>
-                  <p>Web app that helps you track COVID-19.</p>
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <a href="#"><img src="./assets/images/headphones.jpg" class="card-img-top" alt="headphones" /></a>
-              <div class="card-body">
-                <a href="#">
-                  <p class="card-text">Clear</p>
-                </a>
-              </div>
+              <a href="https://cprom.github.io/running-wild/"><p className="card-text-a">UCI Eats</p>
+                <p>Web app that helps you search for restaurants and events around your area.</p></a>
             </div>
           </div>
-
+          <div className="card">
+            <a href="https://outbreakstatus.herokuapp.com/" target="#"><img src="./assets/images/OSbiohazzard.png" className="card-img-top-a" alt="Bio Hazzard symbol" /></a>
+            <div className="card-body">
+              <a href="#">
+                <p className="card-text">Outbreak Status</p>
+                <p>Web app that helps you track COVID-19.</p>
+              </a>
+            </div>
+          </div>
+          <div className="card">
+            <a href="#"><img src="./assets/images/coder_book_logos_blue.jpeg" className="card-img-top" alt="headphones" /></a>
+            <div className="card-body">
+              <a href="https://enigmatic-wildwood-51842.herokuapp.com/" target="#">
+                <p className="card-text">Coder Book</p>
+                <p>Social Media Web Aplication for Developers.</p>
+              </a>
+            </div>
+          </div>
         </div>
+
       </div>
+
 
     </>
   )
