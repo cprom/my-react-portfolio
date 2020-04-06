@@ -1,12 +1,17 @@
-import React from 'react';
-
+import React from 'react'
+import Navbar from './components/Header'
+import Body from './components/Body'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div >
-      <h1>MY PORTFOLIO HOME PAGE</h1>
+    <div>
+      <Navbar />
+      <Body />
+      <Footer />
     </div>
   );
 }
 
 export default App;
+
