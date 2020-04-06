@@ -13,16 +13,6 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 
 
-
-// function App() {
-//   return (
-//     <div>
-//       <Navbar />
-//       <Body />
-//       <Footer />
-//     </div>
-//   );
-// }
 const App = () => {
 
   return (
@@ -34,10 +24,10 @@ const App = () => {
         <Route exact path="/Home">
           <Home />
         </Route>
-        <Route path="/Contact">
+        <Route exact path="/Contact">
           <Contact />
         </Route>
-        <Route path="/Projects">
+        <Route exact path="/Projects">
           <Projects />
         </Route>
 

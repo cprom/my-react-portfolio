@@ -1,10 +1,11 @@
 import React from 'react'
 import './portfolio.css'
+import './style.css'
 
 const Projects = () => {
   return (
     <>
-      <h1>Portfolio</h1>
+      <h1>Projects</h1>
 
       <div class="container">
         <div class="card-deck">
@@ -18,7 +19,7 @@ const Projects = () => {
 
             </div>
             <div class="card">
-              <a href="https://outbreakstatus.herokuapp.com/"><img src="./assets/images/OSbiohazzard.png" class="card-img-top-a" alt="Bio Hazzard symbol" /></a>
+              <a href="https://outbreakstatus.herokuapp.com/" target="#"><img src="./assets/images/OSbiohazzard.png" class="card-img-top-a" alt="Bio Hazzard symbol" /></a>
               <div class="card-body">
                 <a href="#">
                   <p class="card-text">Outbreak Status</p>
