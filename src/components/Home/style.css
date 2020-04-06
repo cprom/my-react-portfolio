@@ -1,0 +1,76 @@
+
+body {
+  background-color: #333940;
+  
+}
+
+.logo {
+  height: 40px;
+}
+
+.orange-box {
+  margin-top: 200px;
+  width: 55%;
+  height: 200px;
+  background-color: #ff512f;
+  font-size: 4em;
+  text-align: right;
+  padding-top: 100px;
+  
+}
+
+.middle-box {
+  color: #ff512f;
+  width: 70%;
+  font-size: 4em;
+  text-align: right;
+  
+}
+
+.lower-box {
+  color: white;
+  width: 95vh;
+  height: 1em;
+  font-size: 4em;
+  opacity: .9;
+  text-align: center;
+ 
+  
+}
+
+footer {
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+  
+}
+
+.fab {
+  padding: 10px;
+}
+
+
+
+@media (max-width: 576px) {
+.orange-box {
+  width: 100%;
+  height: 20%;
+  background-color: #ff512f;
+  font-size: 2.5em;
+  text-align:center;
+}
+.middle-box {
+  color: #ff512f;
+  width: 100%;
+  font-size: 2.5em;
+  text-align: center;
+  
+}
+.lower-box {
+  color: white;
+  width: 100%;
+  font-size: 2.5em;
+  opacity: .9;
+  text-align: center;
+}
+}

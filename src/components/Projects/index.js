@@ -1,1 +1,1 @@
-export { defualt } from './Projects.js'
+export { default } from './Projects.js'

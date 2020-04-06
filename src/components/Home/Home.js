@@ -1,6 +1,7 @@
 import React from 'react'
+import './style.css'
 
-const Body = () => {
+const Home = () => {
   return (
     <>
       <div class="container-fluid">
@@ -22,4 +23,4 @@ const Body = () => {
   )
 }
 
-export default Body
+export default Home
