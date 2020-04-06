@@ -21,6 +21,9 @@ const App = () => {
 
       <Navbar />
       <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
         <Route exact path="/Home">
           <Home />
         </Route>
