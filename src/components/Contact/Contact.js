@@ -4,7 +4,7 @@ import './contact.css'
 const Contact = () => {
   return (
     <>
-      <form>
+      <form action="MAILTO:chen.prom@gmail.com">
 
         <h1>Contact Me</h1>
 

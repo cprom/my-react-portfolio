@@ -3,6 +3,12 @@ body {
 
 }
 
+h1 {
+  color: #333940;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
 .logo {
   height: 40px;
 }

@@ -51,7 +51,6 @@ p {
   
 }
 p.card-text-a {
-  margin-top: 40px;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
@@ -68,6 +67,10 @@ p.card-text-a {
   margin:auto;
 }
 
+.coder-book-text {
+  margin-bottom: 40px;
+}
+
 footer {
   padding-top: 50px;
   color: white;
@@ -80,17 +83,18 @@ footer {
   margin-bottom: 0px;
  }
 
-img.card-img-top-a {
-  max-width: 90%;
+/* img.card-img-top-a {
+  width: 290px;
+  height: 290px
   
-}
+} */
 
-img.card-img-top-b {
-  max-height: 200px;
-  max-width: 90%;
-  margin-top: 40px;
+/* img.card-img-top-b {
+  width: 290px;
+  height: 290px;
+ 
 
-}
+} */
 
 a {
   text-align: center;
@@ -106,4 +110,6 @@ a {
     margin-top: 100px;
 
   }
+
+  
 }

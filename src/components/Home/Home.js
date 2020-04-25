@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <div class="container-fluid">
         <div class="row ">
-          <p class="col-sm-8 orange-box justify-content-start">hi im chen,</p>
+          <p class="col-sm-8 orange-box justify-content-start">hi i'm chen,</p>
         </div>
       </div>
       <div class="container-fluid">
