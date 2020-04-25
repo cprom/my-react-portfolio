@@ -20,7 +20,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="card">
-            <a href="https://cprom.github.io/running-wild/" target="_blank"><img src="./assets/images/UCIeats_logo.png" className="card-img-top"
+            <a href="https://cprom.github.io/running-wild/" target="_blank"><img src="./assets/images/UCIeats_logo_a.png" className="card-img-top"
               alt="UCI Eats logo" /></a>
             <div className="card-body">
               <a href="https://cprom.github.io/running-wild/" target="_blank" />
@@ -31,7 +31,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="card">
-            <a href="https://outbreakstatus.herokuapp.com/" target="_blank"><img src="./assets/images/OSbiohazzard.png" className="card-img-top" alt="Bio Hazzard symbol" /></a>
+            <a href="https://outbreakstatus.herokuapp.com/" target="_blank"><img src="./assets/images/OSbiohazzard_a.png" className="card-img-top" alt="Bio Hazzard symbol" /></a>
             <div className="card-body">
               <a href="https://outbreakstatus.herokuapp.com/">
                 <p className="card-text">Outbreak Status</p>
